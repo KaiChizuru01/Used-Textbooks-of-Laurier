@@ -54,7 +54,7 @@
           <!-- /gn-scroller -->
         </nav>
       </li>
-      <li><a href="index.html">NINESTARS</a></li>
+      <li><a href="index.html">Used Textbooks of Laurier</a></li>
       <li class="hidden-xs">
         <ul class="company-social">
           <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -76,374 +76,56 @@
   </section>
   <!-- /Section: intro -->
 
-  <!-- Section: search for textbook -->
-  <section id="about" class="home-section text-center bg-gray">
-    <form action="" method="post" role="form" class="searchform">  
-    <div class="form-group">
-        <label for="term">Select term:</label>
-        <select class="form-control" id="term" name="term" required>
-          <option value="fall_2017">Fall 2017</option>
-        </select>
-        <label for="department">Select department:</label>
-        <select class="form-control" id="department" name="department" required>
-          <option value="">Select department</option>
-          <!-- Arts -->
-          <optgroup rel="fall_2017" label="Faculty of Arts"
-            <option value="ancient_studies">Ancient Studies</option>
-            <option value="anthro">Anthropology</option>
-            <option value="archaeology">Archaeology and Heritage Studies</option>
-            <option value="communications">Communication Studies</option>
-            <option value="cast">Cultural Analysis and Social Theory(CAST)</option>
-            <option value="cultural">Cultural Studies</option>
-            <option value="a_english">English and Film Studies</option>
-            <option value="Geography">Geography and Environmental Studies</option>
-            <option value="global">Global Studies</option>
-            <option value="a_history">History (arts)</option>
-            <option value="languages">Languages and Literatures</option>
-            <option value="medieval">Medieval and Medievalism Studies</option>
-            <option value="north_american">North American Studies</option>
-            <option value="philosophy">Philosophy</option>
-            <option value="polisci">Political Science</option>
-            <option value="religion">Religion and Culture</option>
-            <option value="sociology">Sociology</option>
-            <option value="women">Women and Gender Studies</option>
-          <!-- Education -->
-          <option rel="fall_2017" value="education">Faculty of Education</option>
-          <!-- Human and Social Sciences -->
-                <optgroup rel="fall_2017" label="Faculty of Human and Social Sciences"
-            <option value="community_health">Community Health</option>
-            <option value="criminology">Criminology</option>
-            <option value="game_design">Game Design and Development</option>
-            <option value="health_admin">Health Administration</option>
-            <option value="leadership">Leadership</option>
-            <option value="policing">Policingh</option>
-            <option value="h_psych">Psychology</option>
-            <option value="public_health">Public Health</option>
-          <!-- Liberal Arts -->
-          <optgroup rel="fall_2017" label="Faculty of Liberal Arts"
-            <option value="digi_media">Digital Media and Journalism</option>
-            <option value="la_english">English</option>
-            <option value="la_history">History (liberal arts)</option>
-            <option value="human_rights">Human Rights and Human Diversity</option>
-            <option value="indigenous">Indigenous Studies</option>
-            <option value="law">Law and Society</option>
-            <option value="social_enviro_justice">Social and Environmental Justice</option>
-            <option value="social_justice">Social Justice and Community Engagement</option>
-            <option value="user">User Experience Design</option>
-            <option value="youth">Youth and Children's Studies</option>
-          <!-- Business -->
-            <optgroup rel="fall_2017" label="Lazaridis School of Business and Economics"
-            <option value="business">Business</option>
-            <option value="economics">Economics</option>
-            <option value="btm">Business Techology Management (BTM)</option>
-          <!-- Music -->
-          <option rel="fall_2017" value="music">Music</option>
-          <!-- Science -->
-          <optgroup rel="fall_2017" label="Faculty of Science"
-            <option value="water">Applied Water Science</option>
-            <option value="bio">Biology</option>
-            <option value="chem">Chemistry and Biochemistry</option>
-            <option value="environment">Environmental Science</option>
-            <option value="health">Health Sciences</option>
-            <option value="kin">Kinesiology and Physical Education</option>
-            <option value="math">Mathematics</option>
-            <option value="physics">Physics and Computer Science</option>
-            <option value="s_psych">Psychology</option>
-          <!-- Seminary -->
-          <optgroup rel="fall_2017" label="Waterloo Lutheran Seminary"
-            <option value="christian">Christian Studies and Global Citizenship</option>
-            <option value="christian">Christian Studies and Global Citizenship</option>
-        </select>
-        <label for="course">Select course:</label>
-        <select class="form-control" id="course" name="course" required>
-          <option value>Select course</option>
-          <!-- Ancient Studies -->
-          <optgroup rel="ancient_studies" label="First year"
-            <option value="hi121">HI121: Ancient History in a Global Context</option>
-            <option value="hi121">HI121: Ancient History in a Global Context</option>
-          </optgroup>
-          <optgroup rel="ancient_studies" label="Second year"
-            <option value="hi225">HI225: History of Ancient Greece</option>
-            <option value="hi255">HI255: Crime and Justice in Antiquity</option>
-            <option value="hi283">HI283: Ancient Africa</option>
-          </optgroup>
-          <optgroup rel="ancient_studies" label="Third year"
-            <option value="hi346g">HI346G: Alexander the Great</option>
-            <option value="hi385">HI385: Food and Drink in Ancient Mediterranean Society</option>
-          </optgroup>
-          <optgroup rel="a_history" label="Fourth year"
-            <option value="hi448">HI448: Reading Seminar - The Ancient World</option>
-            <option value="hi448">HI448: Reading Seminar - The Ancient World</option>
-          </optgroup>
-          <!-- History (Faculty of Arts) -->
-          <optgroup rel="a_history" label="First year"
-            <option value="hi121">HI121: Ancient History in a Global Context</option>
-            <option value="hi123">HI123: Great Battles in History</option>
-            <option value="hi125">HI125: Business History</option>
-            <option value="hi127">HI127: Pirates! A World History</option>
-            <option value="dh100">DH100: Digital Creativity</option>
-          </optgroup>
-          <optgroup rel="a_history" label="Second year"
-            <option value="hi208">HI208:Liberty, Work, &amp Power: US History 1607-1877</option>
-            <option value="hi219">HI219: History of English Law to 1714-1914</option>
-            <option value="hi220">HI220: WarFare: From Knights to the Thin Red Line</option>
-            <option value="hi225_ar225">HI225/AR225: History of Ancient Greece</option>
-            <option value="hi232">HI232: A History of Sea Power to 1914</option>
-            <option value="hi250">HI250: Bloodlands: Violence and Political Mass Murder in East Central Europe, 1880s to WWII</option>
-            <option value="hi253">HI253: Race, Rights and the Law in Early United States History</option>
-            <option value="hi255">HI255: Crime and Justice in Antiquity</option>
-            <option value="hi283">HI283: Ancient Africa</option>
-            <option value=hi292">HI292: History of Canada to Confederation</option>
-          </optgroup>
-          <optgroup rel="a_history" label="Third year"
-            <option value="hi310">HI310: The Italian Renaissance 1350-1530</option>
-            <option value="hi318">HI318: Crime, Sex, and Scandal in 19th Century Britain</option>
-            <option value="hi320">HI320: Canada Since 1945</option>
-            <option value="hi330">HI330: Slavery and Emancipation in the United States</option>
-            <option value="hi332">HI332: The Foreign Relations of the United States in the 20th Century</option>
-            <option value="hi344">HI344: Native Peoples of Eastern Canada</option>
-            <option value="hi346c">HI346C: WWI in Eastern Europe</option>
-            <option value="hi346g">HI346G: Alexander the Great</option>
-            <option value="hi346w">HI346W: Saints and Scoundrels: Canadian Biography as History</option>
-            <option value="hi349">HI349: History of Interational Relations, 1890-1991</option>
-            <option value="hi360">HI360: The Great War and Its Aftermath, 1914-1921</option>
-            <option value="hi385">HI385: Food and Drink in Ancient Mediterranean Society</option>
-            <option value="hi398">HI398: The Historian's Craft</option>
-          </optgroup>
-          <optgroup rel="a_history" label="Fourth year"
-            <option value="hi401">HI401: Reading Seminar - Early Modern Europe</option>
-            <option value="hi430">HI430: Reading Seminar - Canada in the 20th Century</option>
-            <option value="hi448">HI448: Reading Seminar - The Ancient World</option>
-            <option value="hi496F">HI496F: Reading Seminar - Stalin's Revolution</option>
-            <option value="hi496H">HI496H: Reading Seminar - Canada and the Great War</option>
-            <option value="hi496J">HI496J: Reading Seminar - Beasts of Burden: Animals in Modern History</option>
-          </optgroup>
-        </select>
-        <div class="text-center"><button type="submit" class="btn btn-skin">Send Message</button></div>
-      </div>
-    </form>
-  </section>
-  <!-- /Section: about -->
-
-
-  <!-- Section: services -->
-  <section id="service" class="home-section text-center">
-
-    <div class="heading-about marginbot-50">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-
-            <div class="section-heading">
-              <h2>Our Services</h2>
-              <p>Lorem ipsum dolor sit amet, no nisl mentitum recusabo per, vim at blandit qualisque dissentiunt. Diam efficiantur conclusionemque ut has</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-md-3">
-
-          <div class="service-box">
-            <div class="service-icon">
-              <i class="fa fa-code fa-3x"></i>
-            </div>
-            <div class="service-desc">
-              <h5>Print</h5>
-              <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-sm-3 col-md-3">
-
-          <div class="service-box">
-            <div class="service-icon">
-              <i class="fa fa-suitcase fa-3x"></i>
-            </div>
-            <div class="service-desc">
-              <h5>Web Design</h5>
-              <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-sm-3 col-md-3">
-
-          <div class="service-box">
-            <div class="service-icon">
-              <i class="fa fa-cog fa-3x"></i>
-            </div>
-            <div class="service-desc">
-              <h5>Photography</h5>
-              <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-sm-3 col-md-3">
-
-          <div class="service-box">
-            <div class="service-icon">
-              <i class="fa fa-rocket fa-3x"></i>
-            </div>
-            <div class="service-desc">
-              <h5>Cloud System</h5>
-              <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /Section: services -->
-
-
-  <!-- Section: works -->
-  <section id="works" class="home-section text-center bg-gray">
-    <div class="heading-works marginbot-50">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-
-            <div class="section-heading">
-              <h2>Recent Works</h2>
-              <p>Lorem ipsum dolor sit amet, no nisl mentitum recusabo per, vim at blandit qualisque dissentiunt. Diam efficiantur conclusionemque ut has</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-
-          <div class="row gallery-item">
-            <div class="col-md-3">
-              <a href="img/works/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/1.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3">
-              <a href="img/works/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/2.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3">
-              <a href="img/works/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/3.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3">
-              <a href="img/works/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/4.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3">
-              <a href="img/works/5.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/5.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3">
-              <a href="img/works/6.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/6.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3">
-              <a href="img/works/7.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/7.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-            <div class="col-md-3">
-              <a href="img/works/8.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/8.jpg" class="img-responsive" alt="img">
-							</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /Section: works -->
-
   <!-- Section: contact -->
   <section id="contact" class="home-section text-center">
-    <div class="heading-contact marginbot-50">
+      <div class="heading-contact marginbot-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+  
+              <div class="section-heading">
+                <h2>Get in touch</h2>
+                <p>Do you have any concerns or suggestions that you would like to share with us?</p>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container">
+  
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-
-            <div class="section-heading">
-              <h2>Get in touch</h2>
-              <p>Lorem ipsum dolor sit amet, no nisl mentitum recusabo per, vim at blandit qualisque dissentiunt. Diam efficiantur conclusionemque ut has</p>
+          <div class="col-lg-8 col-md-offset-2">
+            <div class="boxed-grey">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" class="btn btn-skin">Send Message</button></div>
+              </form>
             </div>
-
+            </div>
           </div>
+  
         </div>
+  
       </div>
-    </div>
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-8 col-md-offset-2">
-          <div class="boxed-grey">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-
-              <div class="text-center"><button type="submit" class="btn btn-skin">Send Message</button></div>
-            </form>
-          </div>
-
-          <div class="widget-contact row">
-            <div class="col-lg-6">
-              <address>
-				  <strong>Ninestars Ltd.</strong><br>
-				  Big Villa 334 Awesome, Beautiful Suite 1200<br>
-				  San Francisco, CA 94107<br>
-				  <abbr title="Phone">P:</abbr> (123) 456-7890
-				</address>
-            </div>
-
-            <div class="col-lg-6">
-              <address>
-				  <strong>Email</strong><br>
-				  <a href="mailto:#">email.name@example.com</a><br />
-				   <a href="mailto:#">name.name@example.com</a>
-				</address>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-  <!-- /Section: contact -->
+    </section>
 
   <footer>
     <div class="container">
@@ -458,6 +140,8 @@
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Ninestars
             -->
             <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <p></p>
+            <p>Disclaimer: We do not own any of the images nor do we profit from this website. All copyrights of bookcovers on this site belong to their respective owners.</p>
           </div>
         </div>
       </div>
