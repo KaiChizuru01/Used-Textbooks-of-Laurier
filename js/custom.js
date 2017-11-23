@@ -40,3 +40,26 @@
 
 	
 })(jQuery);
+
+$(function(){
+    
+    var $cat = $("#department"),
+        $subcat = $("#course");
+    
+    $cat.on("change",function(){
+        var _rel = $(this).val();
+        $subcat.find("option").attr("style","");
+        $subcat.val("");
+        if(!_rel) return $subcat.prop("disabled",true);
+		$subcat.find("[rel="+_rel+"]").show();
+		$subcat.prop("disabled",false);
+	});
+    
+});
+
+$( "#search_textbooks" ).click(function() {
+	var spage=$("#course").val()
+	alert( "Handler for .click() called." + spage);
+	document.location=spage+".html";
+	return false;
+  });
