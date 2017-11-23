@@ -491,6 +491,45 @@ input.gn-search:focus {
     font-size: 18px;
 }
 
+/* ===========================
+--- hi121
+============================ */
+
+.hi121 {
+	width:100%;
+	position:relative;
+}
+
+#hi121{	
+	background-image: url(../img/pexels-photo-280384.jpeg);
+	background-size: cover;
+}
+
+.hi121 .slogan {
+	padding:250px 0 60px;
+	text-align: center;
+	
+}
+.hi121 .slogan h1 {
+	color: #fff;
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	 font-size: 40px;
+}
+.hi121 .slogan p {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.ahgc-text {
+	font-size: 18px;
+}
 
 /* slider */
 
@@ -934,4 +973,12 @@ footer a:hover {
 		
 	}
 	
+}
+
+#course option{
+    display:none;
+}
+
+#course option.label{
+    display:block;
 }
