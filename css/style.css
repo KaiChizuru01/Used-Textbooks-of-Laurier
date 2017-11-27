@@ -1201,13 +1201,11 @@ body {
   > tfoot {
     > tr {
       .transition(all .3s ease);
-      > th{
-	      text-align: center;
-	}
+      > th,
       > td {
         text-align: left;
         padding: @table-cell-padding;
-        vertical-align: middle;
+        vertical-align: top;
         border-top: 0;
         .transition(all .3s ease);
       }
