@@ -536,48 +536,6 @@ input.gn-search:focus {
 }
 
 /* ===========================
---- ps831_sell
-============================ */
-
-.ps831_sell {
-	width:100%;
-	position:relative;
-}
-
-#ps831_sell{	
-	background-image: url(../img/clinical-psychology-Trull.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-
-.ps831_sell .slogan {
-	padding:250px 0 60px;
-	text-align: center;
-	
-}
-.ps831_sell .slogan h1 {
-	color: #fff;
-	line-height: 1.1em;
-	margin-bottom: 20px;
-	 font-size: 40px;
-}
-.ps831_sell .slogan p {
-	color: #eee;
-	margin-bottom: 50px;
-	font-size: 20px;
-}
-
-
-.brand-heading {
-    font-size: 40px;
-}
-
-.ahgc-text {
-	font-size: 18px;
-}
-
-/* ===========================
 --- ps381
 ============================ */
 
@@ -620,49 +578,6 @@ input.gn-search:focus {
 }
 
 /* ===========================
---- clinical_psych_textbook
-============================ */
-
-.clinical_psych_textbook {
-	width:100%;
-	position:relative;
-}
-
-#clinical_psych_textbook{	
-	background-image: url(../img/clinical-psychology-Trull.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-
-.clinical_psych_textbook .slogan {
-	padding:250px 0 60px;
-	text-align: center;
-	
-}
-
-.clinical_psych_textbook .slogan h1 {
-	color: #fff;
-	line-height: 1.1em;
-	margin-bottom: 20px;
-	 font-size: 40px;
-}
-.clinical_psych_textbook .slogan p {
-	color: #eee;
-	margin-bottom: 50px;
-	font-size: 20px;
-}
-
-
-.brand-heading {
-    font-size: 40px;
-}
-
-.ahgc-text {
-	font-size: 18px;
-}
-
-/* ===========================
 --- cp202
 ============================ */
 
@@ -690,48 +605,6 @@ input.gn-search:focus {
 	 font-size: 40px;
 }
 .cp202 .slogan p {
-	color: rgb(0, 0, 0);
-	margin-bottom: 50px;
-	font-size: 20px;
-}
-
-
-.brand-heading {
-    font-size: 40px;
-}
-
-.ahgc-text {
-	font-size: 18px;
-}
-
-/* ===========================
---- cp202_textbook
-============================ */
-
-.cp202_textbook {
-	width:100%;
-	position:relative;
-}
-
-#cp202_textbook{	
-	background-image: url(../img/cp202_textbook.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-
-.cp202_textbook .slogan {
-	padding:250px 0 60px;
-	text-align: center;
-	
-}
-.cp202_textbook .slogan h1 {
-	color: rgb(0, 0, 0);
-	line-height: 1.1em;
-	margin-bottom: 20px;
-	 font-size: 40px;
-}
-.cp202_textbook .slogan p {
 	color: rgb(0, 0, 0);
 	margin-bottom: 50px;
 	font-size: 20px;
@@ -2002,7 +1875,7 @@ input.currency {
     z-index: 3;
 }
 
-img{
+.textbooks{
    max-height: 17vw;
    min-height: 17vw;
    max-width:17vw;
