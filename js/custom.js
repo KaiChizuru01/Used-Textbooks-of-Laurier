@@ -134,9 +134,3 @@ function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
 }
-
-webshims.setOptions('forms-ext', {
-    replaceUI: 'auto',
-    types: 'number'
-});
-webshims.polyfill('forms forms-ext');
