@@ -503,7 +503,7 @@ input.gn-search:focus {
 }
 
 #hi121{	
-	background-image: url(../img/ONU6O90.jpeg);
+	background-image: url(../img/ONU6O90.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -619,6 +619,174 @@ input.gn-search:focus {
 	font-size: 18px;
 }
 
+/* ===========================
+--- listing
+============================ */
+
+.listing {
+	width:100%;
+	position:relative;
+}
+
+#listing{	
+	background-image: url(../img/446.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.listing .slogan {
+	padding:250px 0 60px;
+	text-align: center;
+	
+}
+.listing .slogan h1 {
+	color: rgb(255, 255, 255);
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	 font-size: 40px;
+}
+.listing .slogan p {
+	color: rgb(255, 255, 255);
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.ahgc-text {
+	font-size: 18px;
+}
+
+/* ===========================
+--- inquiry
+============================ */
+
+.inquiry {
+	width:100%;
+	position:relative;
+}
+
+#inquiry{	
+	background-image: url(../img/Piggy_bank_blackboard_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.inquiry .slogan {
+	padding:250px 0 60px;
+	text-align: center;
+	
+}
+.inquiry .slogan h1 {
+	color: rgb(255, 255, 255);
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	 font-size: 40px;
+}
+.inquiry .slogan p {
+	color: rgb(255, 255, 255);
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.ahgc-text {
+	font-size: 18px;
+}
+
+/* ===========================
+--- sell
+============================ */
+
+.sell {
+	width:100%;
+	position:relative;
+}
+
+#sell{	
+	background-image: url(../img/OH3E9S0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.sell .slogan {
+	padding:250px 0 60px;
+	text-align: center;
+	
+}
+.sell .slogan h1 {
+	color: rgb(255, 255, 255);
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	 font-size: 40px;
+}
+.sell .slogan p {
+	color: rgb(255, 255, 255);
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.ahgc-text {
+	font-size: 18px;
+}
+
+/* ===========================
+--- buy
+============================ */
+
+.buy {
+	width:100%;
+	position:relative;
+}
+
+#buy{	
+	background-image: url(../img/251.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.buy .slogan {
+	padding:250px 0 60px;
+	text-align: center;
+	
+}
+.buy .slogan h1 {
+	color: rgb(255, 255, 255);
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	 font-size: 40px;
+}
+.buy .slogan p {
+	color: rgb(255, 255, 255);
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.ahgc-text {
+	font-size: 18px;
+}
+
 /* slider */
 
 .tp-caption.custom_large_white {
@@ -710,26 +878,6 @@ input.gn-search:focus {
 .team-social .social-deviantart a:hover{background: #adc376;}
 .team-social .social-google a:hover{background: #333;}
 .team-social .social-vimeo a:hover{background: #71c6f3;}
-
-
-/* ===========================
---- Services
-============================ */
-
-.service-icon {
-	margin-bottom: 20px;
-}	
-
-
-
-
-/* ===========================
---- Works
-============================ */
-
-.gallery-item > div {
-	margin-bottom: 30px;
-}
 
 /* ===========================
 --- Contact
@@ -1036,6 +1184,22 @@ footer a:hover {
         padding: 0;
     }
     .ps381 {
+        height: 100%;
+        padding: 0;
+    }
+    .buy {
+        height: 100%;
+        padding: 0;
+    }
+    .sell {
+        height: 100%;
+        padding: 0;
+    }
+    .inquiry {
+        height: 100%;
+        padding: 0;
+    }
+    .listing {
         height: 100%;
         padding: 0;
     }
