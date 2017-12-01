@@ -47,6 +47,9 @@
               <li>
                 <a href="contact.html" class="gn-icon gn-icon-archive">Contact</a>
               </li>
+              <li>
+                <a href="changes.html" class="gn-icon gn-icon-cog">Changes</a>
+              </li>
             </ul>
           </div>
           <!-- /gn-scroller -->
@@ -76,11 +79,12 @@
 
   <!-- Section: search for textbook -->
   <section id="about" class="home-section text-center bg-gray">
-    <form action="" method="post" role="form" class="searchform">  
+    <h2>Your Search Starts Here!</h2>
+    <form action="/action_page.php" method="post" class="searchform">  
     <div class="form-group">
         <label for="term">Select term:</label>
         <select class="form-control" id="term" name="term" required>
-          <option value="fall_2017">Fall 2017</option>
+          <option value="">Fall 2017</option>
         </select>
         <label for="department">Select department:</label>
         <select class="form-control" id="department" name="department" required>
@@ -169,7 +173,7 @@
           <option disabled="disabled" rel="ancient_studies" value="hi448">HI448: Reading Seminar - The Ancient World</option>
           <!-- Physics and Computer Science -->
           <option disabled="disabled" rel="physics" value="AS101">AS101: Astronomy I: Our Place in the Cosmos (lecture)</option>
-          <option disabled="disabled" rel="physics" value="AS101oc">AS101: Astronomy I: Our Place in the Cosmos (lecture)</option>
+          <option disabled="disabled" rel="physics" value="AS101oc">AS101: Astronomy I: Our Place in the Cosmos (online)</option>
           <option disabled="disabled" rel="physics" value="cp102">CP102: Information Processing with Microcomputer Systems (online)</option>
           <option disabled="disabled" rel="physics" value="cp104">CP104: Introduction to Programming</option>
           <option disabled="disabled" rel="physics" value="cp164">CP164: Data Structures I</option>

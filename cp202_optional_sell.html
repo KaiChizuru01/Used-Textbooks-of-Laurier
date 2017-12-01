@@ -68,14 +68,15 @@
     </ul>
   </div>
 
-  <!-- Section: intro -->
-  <section id="inquiry" class="inquiry">
+  <!-- Section: sell -->
+  <section id="sell" class="sell">
     <div class="slogan">
-      <h1>HI121 Course Package</h1>
-      <a href="#contact" class="btn btn-skin scroll">Contact Us For this Textbook</a>
+      <h1>Build Better Products: A Modern Approach to Building Successful User-Centered Products</h1>
+      <p>Laura Klein</p>
+      <a href="#contact" class="btn btn-skin scroll">Would you like to sell this textbook?</a>
     </div>
   </section>
-  <!-- /Section: intro -->
+  <!-- /Section: sell -->
 
   <!-- Section: contact -->
   <section id="contact" class="home-section text-center">
@@ -84,7 +85,7 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <div class="section-heading">
-                <h2>Would you like us to notify you when a listing of this textbook is avaliable?</h2>
+                <h2>Do you have a copy of this textbook to sell?</h2>
               </div>
             </div>
           </div>
@@ -92,57 +93,77 @@
       </div>
 
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-offset-2">
-            <div class="boxed-grey">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div class="row">
+            <div class="col-lg-8 col-md-offset-2">
+              <div class="boxed-grey">
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
                 <div id="errormessage"></div>
                 <form action="/action_page.php" method="post" class="contactForm">
-                  <div class="form-group">
-                    <label>Please Enter Your Full Name</label>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                    <label>Please Enter Your Email</label>
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                    <label>Please Type When You Would To Be Notified By</label>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="date" id="date" placeholder="When or how soon do you need the textbook by?" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                    <label>Please Enter The Condition You Are Willing To Accept</label>
-                  </div>
-                  <div class="form-group">
-                    <input type="radio" name="condition" value="mint" required> Mint/Perfect Condition<br>
-                    <input type="radio" name="condition" value="highlights" required> Highlights are fine<br>
-                    <input type="radio" name="condition" value="good" required> Dented Corners are fine<br>
-                    <input type="radio" name="condition" value="rip" required> A Rip Or Two Can Be Found <br>
-                    <input type="radio" name="condition" value="water" required> There Is Water Damage<br>
-                    <input type="radio" name="condition" value="any" required> Any Textbook Is Fine<br>
-                  </div>
-                  <div class="form-group">
-                    <label>Do You Have Anything Else To Add?</label>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="comment" id="comment" placeholder="Any else?"/>
-                  </div>
-                  <div class="text-center" style="display: inline;"><button type="submit" class="btn btn-skin">Send Inquiry</button></div>
-                  <div class="text-center" style="display: inline;"><button type="reset" class="btn btn-skin">Reset</button></div>
-                </form>
+                    <div class="form-group">
+                        <label>Please Enter Your Full Name</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <label>Please Enter Your Email</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <label>Minimum Price Willing to Sell for</label>
+                    </div>
+                    <div class="input-group">
+                      <span class = "input-group-addon">$</span>
+                      <input type="number" value="0.00" min="5" max="10000" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control currency" data-rule="minvalue:1" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <label>Maximum Price Willing to Sell for</label>
+                    </div>
+                    <div class="input-group">
+                      <span class = "input-group-addon">$</span>
+                      <input type="number" value="0.00" min="5" max="10000" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control currency" data-rule="minvalue:1" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <label>Would You Like to Be Able to Negotiate the Price?</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="radio" name="negotiate" value="yes"> Yes<br>
+                      <input type="radio" name="negotiate" value="no"> No<br>
+                    </div>
+                    <div class="form-group">
+                      <label>Condition of the Textbook</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="condition" id="condition" placeholder="What condition is the textbook in?" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <label>Where did you buy the textbook from?</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="location" id="location" placeholder="Condition of textbook" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <label>Any highlighting? Any Rips Or Tears? Any Dents?</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="comment" id="comment" placeholder="Anything else you would to add?"/>
+                    </div>
+                    <div class="text-center" style="display: inline;"><button type="submit" class="btn btn-skin">Send Sell Submission</button></div>
+                    <div class="text-center" style="display: inline;"><button type="reset" class="btn btn-skin">Reset</button></div>
+                  </form>
+                  <p>Please remember when you meet the buy, that they have the right to refuse to buy the textbook if it is not how they expected it.</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
     </section>
 
   <footer>

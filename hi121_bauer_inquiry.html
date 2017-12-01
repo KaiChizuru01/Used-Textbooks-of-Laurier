@@ -67,66 +67,86 @@
       </li>
     </ul>
   </div>
-<!-- Section: hi121 -->
-<section id="hi121" class="hi121">
+
+  <!-- Section: intro -->
+  <section id="inquiry" class="inquiry">
     <div class="slogan">
-      <h1>HI121: Ancient History in a Global Context</h1>
-      <a href="#table_of_textbooks" class="btn btn-skin scroll">List of Textbooks for this course</a>
+      <h1>The History of The Ancient World</h1>
+      <p>Susan Wise Bauer</p>
+      <a href="#contact" class="btn btn-skin scroll">Contact Us For this Textbook</a>
     </div>
   </section>
-  <!-- /Section: hi121 -->
-  <section>
-    <h2 style="text-align: center">Course Materials</h2>
-    <div class="container" id="table_of_textbooks"></div>
-      <div class="table-responsive">          
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Item</th>
-              <th>Picture</th>
-              <th>Author</th>
-              <th>Edition</th>
-              <th>Status</th>
-              <th>Listings</th>
-              <th></th>
-              <th>Sell?</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HI121 Course Package</td>
-              <td>N/A</td>
-              <td>N/A</td>
-              <td>N/A</td>
-              <td>Required</td>
-              <td>0</td>
-              <td>
-                <a href="hi121_course_pack_inquiry.html">Request to be notified</a></td>
-              <td>
-                <a href="hi121_course_pack_sell.html">Sell</a>
-              </td>
-            </tr>
-            <tr>
-              <td>History of the Ancient World</td>
-              <td>
-                <img src="http://www.susanwisebauer.com/blog/wp-content/uploads/2009/09/9780393059748_3001.jpg" alt="History of the Ancient World">
-              </td>
-              <td>Susan Wise Bauer</td>
-              <td>N/A</td>
-              <td>Optional</td>
-              <td>0</td>
-              <td>
-                <a href="hi121_bauer_inquiry.html">Request to be notified</a></td>
-              <td>
-                <a href="hi121_bauer_sell.html">Sell</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-  </section>  
+  <!-- /Section: intro -->
 
-<footer>
+  <!-- Section: contact -->
+  <section id="contact" class="home-section text-center">
+      <div class="heading-contact marginbot-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="section-heading">
+                <h2>Would you like us to notify you when a listing of this textbook is avaliable?</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-offset-2">
+            <div class="boxed-grey">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <form action="/action_page.php" method="post" class="contactForm">
+                  <div class="form-group">
+                    <label>Please Enter Your Full Name</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <label>Please Enter Your Email</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <label>Please Type When You Would To Be Notified By</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="date" id="date" placeholder="When or how soon do you need the textbook by?" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <label>Please Enter The Condition You Are Willing To Accept</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="radio" name="condition" value="mint" required> Mint/Perfect Condition<br>
+                    <input type="radio" name="condition" value="highlights" required> Highlights are fine<br>
+                    <input type="radio" name="condition" value="good" required> Dented Corners are fine<br>
+                    <input type="radio" name="condition" value="rip" required> A Rip Or Two Can Be Found <br>
+                    <input type="radio" name="condition" value="water" required> There Is Water Damage<br>
+                    <input type="radio" name="condition" value="any" required> Any Textbook Is Fine<br>
+                  </div>
+                  <div class="form-group">
+                    <label>Do You Have Anything Else To Add?</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="comment" id="comment" placeholder="Any else?"/>
+                  </div>
+                  <div class="text-center" style="display: inline;"><button type="submit" class="btn btn-skin">Send Inquiry</button></div>
+                  <div class="text-center" style="display: inline;"><button type="reset" class="btn btn-skin">Reset</button></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-lg-12">
