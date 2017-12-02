@@ -170,7 +170,7 @@ hr {
 .no-touch .gn-menu li.gn-search-item:hover,
 .no-touch .gn-menu li.gn-search-item:hover a {
 		background: #881eeb;
-		color: white;
+		color:#FFF;
 }
 
 .gn-menu-main > li {
@@ -302,25 +302,25 @@ input.gn-search:focus {
 }
 
 .no-touch .gn-menu li.gn-search-item:hover input.gn-search {
-		color: white
+		color: #FFF
 }
 
 /* placeholder */
 
 .no-touch .gn-menu li.gn-search-item:hover .gn-search::-webkit-input-placeholder {
-		color: white
+		color: #FFF
 }
 
 .no-touch .gn-menu li.gn-search-item:hover .gn-search:-moz-placeholder {
-		color: white
+		color: #FFF
 }
 
 .no-touch .gn-menu li.gn-search-item:hover .gn-search::-moz-placeholder {
-		color: white
+		color: #FFF
 }
 
 .no-touch .gn-menu li.gn-search-item:hover .gn-search:-ms-input-placeholder {
-		color: white
+		color: #FFF
 }
 
 .gn-menu-main a.gn-icon-search {
@@ -403,19 +403,19 @@ input.gn-search:focus {
 		width: 30px;
 		height: 3px;
 		background: #881eeb;
-		box-shadow: 0 3px white, 0 -6px #881eeb, 0 -9px white, 0 -12px #881eeb;
+		box-shadow: 0 3px #FFF, 0 -6px #881eeb, 0 -9px #FFF, 0 -12px #881eeb;
 		content: '';
 }
 
 .no-touch .gn-icon-menu:hover::before,
 .no-touch .gn-icon-menu.gn-selected:hover::before {
 		background: white;
-		box-shadow: 0 3px #eb5d1e, 0 -6px white, 0 -9px #eb5d1e, 0 -12px white;
+		box-shadow: 0 3px #eb5d1e, 0 -6px #FFF, 0 -9px #eb5d1e, 0 -12px #FFF;
 }
 
 .gn-icon-menu.gn-selected::before {
 		background: #F2A900;
-		box-shadow: 0 3px white, 0 -6px #F2A900, 0 -9px white, 0 -12px #F2A900;
+		box-shadow: 0 3px #FFF, 0 -6px #F2A900, 0 -9px #FFF, 0 -12px #F2A900;
 }
 
 /* styles for opening menu */
@@ -462,7 +462,7 @@ input.gn-search:focus {
 
 #intro{	
 	background-image: url(../img/cover3.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -504,7 +504,7 @@ input.gn-search:focus {
 
 #hi121{	
 	background-image: url(../img/ONU6O90.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -546,7 +546,7 @@ input.gn-search:focus {
 
 #ps381{	
 	background-image: url(../img/O6OARE0.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -557,13 +557,13 @@ input.gn-search:focus {
 	
 }
 .ps381 .slogan h1 {
-	color: rgb(0, 0, 0);
+	color: #000;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
 }
 .ps381 .slogan p {
-	color: rgb(0, 0, 0);
+	color: #000;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
@@ -588,7 +588,7 @@ input.gn-search:focus {
 
 #cp202{	
 	background-image: url(../img/cp202.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -599,13 +599,13 @@ input.gn-search:focus {
 	
 }
 .cp202 .slogan h1 {
-	color: rgb(0, 0, 0);
+	color: #000;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
 }
 .cp202 .slogan p {
-	color: rgb(0, 0, 0);
+	color: #000;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
@@ -630,7 +630,7 @@ input.gn-search:focus {
 
 #listing{	
 	background-image: url(../img/446.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -641,13 +641,13 @@ input.gn-search:focus {
 	
 }
 .listing .slogan h1 {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
 }
 .listing .slogan p {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
@@ -672,7 +672,7 @@ input.gn-search:focus {
 
 #inquiry{	
 	background-image: url(../img/Piggy_bank_blackboard_background.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -683,13 +683,13 @@ input.gn-search:focus {
 	
 }
 .inquiry .slogan h1 {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
 }
 .inquiry .slogan p {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
@@ -714,7 +714,7 @@ input.gn-search:focus {
 
 #sell{	
 	background-image: url(../img/OH3E9S0.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -725,13 +725,13 @@ input.gn-search:focus {
 	
 }
 .sell .slogan h1 {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
 }
 .sell .slogan p {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
@@ -756,7 +756,7 @@ input.gn-search:focus {
 
 #buy{	
 	background-image: url(../img/251.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -767,13 +767,13 @@ input.gn-search:focus {
 	
 }
 .buy .slogan h1 {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
 }
 .buy .slogan p {
-	color: rgb(255, 255, 255);
+	color: #FFF;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
@@ -796,7 +796,7 @@ input.gn-search:focus {
 	line-height: 60px;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: #000;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-width: 0px;
@@ -898,8 +898,8 @@ form#contact-form input,form#contact-form select,form#contact-form textarea {
 }
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: 0 1px 2px #000;
+          box-shadow: 0 1px 2px #000;
 }
 .input-group-addon {
   background-color: #fefefe;
@@ -914,7 +914,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 
 .validation {
-    color: red;
+    color: #FF0000;
     display:none;
     margin: 0 0 20px;
     font-weight:400;
@@ -922,8 +922,8 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #sendmessage {
-    color: green;
-    border:1px solid green;
+    color:#008000 ;
+    border:1px solid #008000 ;
     display:none;
     text-align:center;
     padding:15px;
@@ -932,9 +932,9 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #errormessage {
-    color: red;
+    color: #FF0000;
     display:none;
-    border:1px solid red;
+    border:1px solid #FF0000;
     text-align:center;
     padding:15px;
     font-weight:600;
