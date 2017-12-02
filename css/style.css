@@ -462,7 +462,7 @@ input.gn-search:focus {
 
 #intro{	
 	background-image: url(../img/cover3.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -504,7 +504,7 @@ input.gn-search:focus {
 
 #hi121{	
 	background-image: url(../img/ONU6O90.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -546,7 +546,7 @@ input.gn-search:focus {
 
 #ps381{	
 	background-image: url(../img/O6OARE0.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -588,7 +588,7 @@ input.gn-search:focus {
 
 #cp202{	
 	background-image: url(../img/cp202.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -630,7 +630,7 @@ input.gn-search:focus {
 
 #listing{	
 	background-image: url(../img/446.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -672,7 +672,7 @@ input.gn-search:focus {
 
 #inquiry{	
 	background-image: url(../img/Piggy_bank_blackboard_background.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -714,7 +714,7 @@ input.gn-search:focus {
 
 #sell{	
 	background-image: url(../img/OH3E9S0.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -756,7 +756,7 @@ input.gn-search:focus {
 
 #buy{	
 	background-image: url(../img/251.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center; 
 }
