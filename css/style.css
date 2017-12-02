@@ -515,13 +515,13 @@ input.gn-search:focus {
 	
 }
 .hi121 .slogan h1 {
-	color: #fff;
+	color: #000;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
 }
 .hi121 .slogan p {
-	color: #eee;
+	color: #000;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
@@ -599,7 +599,7 @@ input.gn-search:focus {
 	
 }
 .cp202 .slogan h1 {
-	color: #000;
+	color: #FFF;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	 font-size: 40px;
